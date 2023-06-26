@@ -23,8 +23,9 @@
                             <img src="/c2_practicum/images/preview/product_small_2.webp" alt="">
                             <img src="/c2_practicum/images/preview/product_small_3.webp" alt="">
                         </ul>
-                        <div class="preview-photo" style="background-image: url(/c2_practicum/images/preview/product_preview_main.webp);">
+                        <div class="preview-photo" id="main-photo-container">
                             <img src="/c2_practicum/images/preview/product_preview_main.webp" alt="">
+                            <div class="overlay" tabindex="-1"></div>
                         </div>
                     </div>
                 </div>
@@ -83,7 +84,13 @@
             </div>
         </div>
     </div>
-    
-    <img src="/c2_practicum/images/template.webp" alt="" class="template" width="1000" height="587">
+
+    <div class="zoomed-image-container">
+
+    </div>
+
+    <script src="/c2_practicum/scripts/jquery.js"></script>
+    <script src="/c2_practicum/scripts/js-image-zoom.js"></script>
+    <script src="/c2_practicum/scripts/image_picker.js"></script>
 </body>
 </html>
